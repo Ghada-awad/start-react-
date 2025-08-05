@@ -1,0 +1,45 @@
+.layer {
+    background-color: rgba(26, 188, 156, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    display: none;
+}
+
+.layer::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\2b";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+}
+
+.hover:hover .layer {
+    display: block;
+}
+
+.outlayer {
+    background-color: rgba(44, 64, 244, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    display: none;
+}
+
+.outlayerImage {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

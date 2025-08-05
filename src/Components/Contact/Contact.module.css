@@ -1,0 +1,16 @@
+.formcontrol::placeholder {
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.formcontrol:focus {
+    box-shadow: none;
+}
+
+.btncolor {
+    background-color: #1abc9c;
+}
+
+.btn:hover {
+    background-color: #1abc9c;
+    color: white;
+}
